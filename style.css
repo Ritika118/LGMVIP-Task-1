@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(53,105,108);
+    background: linear-gradient(90deg, rgba(53,105,108,1) 0%, rgba(42,72,93,1) 30%, rgba(0,212,255,1) 100%);
+}
+
+.box{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    padding: 30px 50px;
+    border-radius: 20px;
+    background:#2f363e;
+    box-shadow: 25px 75px 75px rgb(53,105,108);
+}
+
+h2{
+    width: 100%;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#new_task{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: rebeccapurple;
+}
+
+#task_submit{
+    color: white;
+    cursor: pointer;
+    margin: 15px auto;
+    border-radius: 20px;
+    font-weight: 200;
+    font-size: 1.20rem;
+    transition: 0.4s;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(53,105,108);
+}
+
+#task_submit:hover{
+    opacity: 0.8;
+}
+
+.task_list{
+    margin: 15px;
+}
+
+.task_list ul{
+    position: relative;
+    margin: 9px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 9px;
+    text-align: left;
+
+}
+
+.task_list ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+
